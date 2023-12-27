@@ -42,6 +42,13 @@
     "description": "Search database for our backend services"
   },
   {
+    "name": "GCP Kubernetes Cluster",
+    "ring": "assess",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Kubernetes cluster for our new infrastructure"
+  },
+  {
     "name": "OpenSearch 2",
     "ring": "assess",
     "quadrant": "Platforms",
