@@ -140,11 +140,46 @@
     "description": "Jenkins is our main automation server for CI/CD"
   },
   {
-    "name": "Laravel",
+    "name": "PHP 7",
     "ring": "hold",
     "quadrant": "Languages and Frameworks",
     "isNew": "FALSE",
-    "description": "KaryaKarsa kore service for backend"
+    "description": "Hard to maintain and many breaking changes appear in PHP updates. We hold this language."
+  },
+  {
+    "name": "PHP 8",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Hard to maintain and many breaking changes appear in PHP updates. We hold this language."
+  },
+  {
+    "name": "Laravel 7.*",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "KaryaKarsa kore service for backend. We hold this framework, will be replaced from monolith to microservices architecture. Use latest Lumen version for microservice instead."
+  },
+  {
+    "name": "ExpressJS",
+    "ring": "adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Popular javascript framework for backend services"
+  },
+  {
+    "name": "Python 3",
+    "ring": "trial",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Popular language for AI service"
+  },
+  {
+    "name": "Fast API",
+    "ring": "trial",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Popular python framework, create OpenAPI docs directly."
   },
   {
     "name": "KaryaKarsa Data Migration",
