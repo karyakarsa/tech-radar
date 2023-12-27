@@ -1,0 +1,254 @@
+[
+  {
+    "name": "PostgresSQL 1-14",
+    "ring": "hold",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Relational database for our backend services"
+  },
+  {
+    "name": "PostgresSQL 15",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Relational database for our backend services"
+  },
+  {
+    "name": "MongoDB 1-5",
+    "ring": "hold",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Document database for our backend services"
+  },
+  {
+    "name": "MongoDB 6",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Document database for our backend services"
+  },
+  {
+    "name": "AWS DynamoDB",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "NoSQL database for our backend services, if for whatever reason you need to deploy stuff in AWS"
+  },
+  {
+    "name": "Elasticsearch 1-8",
+    "ring": "assess",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Search database for our backend services"
+  },
+  {
+    "name": "OpenSearch 2",
+    "ring": "assess",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Search database for our backend services"
+  },
+  {
+    "name": "Redis",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "In memory datastore for our backend services"
+  },
+  {
+    "name": "Memcached",
+    "ring": "assess",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "Multicore memory database"
+  },
+  {
+    "name": "Kafka",
+    "ring": "assess",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "A distributed event store and stream-processing platform for our backend services"
+  },
+  {
+    "name": "GCP Memory Store Redis",
+    "ring": "assess",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "In memory service for Redis and Memcached datastore for our backend services"
+  },
+  {
+    "name": "GCP Memory Store Memcached",
+    "ring": "assess",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "In memory service for Redis and Memcached datastore for our backend services"
+  },
+  {
+    "name": "Redis Enterprise",
+    "ring": "trial",
+    "quadrant": "Platforms",
+    "isNew": "TRUE",
+    "description": "In memory/cluster datastore for our backend services"
+  },
+  {
+    "name": "AWS SNS",
+    "ring": "hold",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "An open-source message-broker for our backend services"
+  },
+  {
+    "name": "Consul",
+    "ring": "assess",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "We planned to assses Consul to store application configuration"
+  },
+  {
+    "name": "Vault",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "We use Vault to store secret configuration for application"
+  },
+  {
+    "name": "Docker",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "We build our backend application as Docker image"
+  },
+  {
+    "name": "Docker Desktop",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "We build our backend application as Docker image"
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "assess",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "We use Kubernetes for container orchestration tool"
+  },
+  {
+    "name": "Jenkins",
+    "ring": "adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Jenkins is our main automation server for CI/CD"
+  },
+  {
+    "name": "Laravel",
+    "ring": "hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "KaryaKarsa kore service for backend"
+  },
+  {
+    "name": "KaryaKarsa Data Migration",
+    "ring": "assess",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "KaryaKarsa data migration is planned as main library for create database migration, it should support MySQL, PostgreSQL and MongoDB. Please refer to Blibli public repository for their data mibration service <a href='https://github.com/bliblidotcom/data-migration'>https://github.com/bliblidotcom/data-migration</a>"
+  },
+  {
+    "name": "Monolith Architecture",
+    "ring": "hold",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Monolith Architecture"
+  },
+  {
+    "name": "Microservices Architecture",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Microservices Architecture"
+  },
+  {
+    "name": "Event-Driven Architecture",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Event-Driven Architecture"
+  },
+  {
+    "name": "Reactive Programming",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Reactive Programming"
+  },
+  {
+    "name": "Non-Blocking IO",
+    "ring": "assess",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Non-Blocking IO"
+  },
+  {
+    "name": "Dependency Injection",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Dependency Injection"
+  },
+  {
+    "name": "CQRS",
+    "ring": "assess",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Command Query Responsibility Segregation"
+  },
+  {
+    "name": "API Gateway",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "API Gateway"
+  },
+  {
+    "name": "Backend for Frontend",
+    "ring": "hold",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Backend for Frontend"
+  },
+  {
+    "name": "Circuit Breaker",
+    "ring": "assess",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Circuit Breaker"
+  },
+  {
+    "name": "Client Side Discovery",
+    "ring": "hold",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Circuit Breaker"
+  },
+  {
+    "name": "Distributed Tracing",
+    "ring": "assess",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Distributed Tracing"
+  },
+  {
+    "name": "Service / Facade Patterns",
+    "ring": "hold",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Service / Facade Patterns"
+  },
+  {
+    "name": "Command Patterns",
+    "ring": "adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Command Patterns"
+  }
+]
